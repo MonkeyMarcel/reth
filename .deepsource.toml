@@ -1,0 +1,42 @@
+version = 1
+
+[[analyzers]]
+name = "solhint"
+type = "community"
+
+[[analyzers]]
+name = "slither"
+type = "community"
+
+[[analyzers]]
+name = "kube-linter"
+type = "community"
+
+[[analyzers]]
+name = "dart-analyze"
+type = "community"
+
+[[analyzers]]
+name = "cfn-lint"
+type = "community"
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "javascript"
